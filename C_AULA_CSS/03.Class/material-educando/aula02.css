@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: blanchedalmond;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+h1,h2 {
+    font-weight: bold;
+}
+
+p.italico {
+    font-style: italic;
+}
+
+footer {
+    font-size: small;
+}
+
+#vasco {
+    bottom: 0%;
+    position:absolute;
+}
+
+table * {
+    background-color: grey;
+    text-align: center;
+    width: 400px;
+   }
+
+.direcao {
+    text-align: center;
+}
