@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+body {
+    border: dashed #D99F59;
+    background-color: #591902;
+}
+
+.bordas{
+    padding-left: 25px;
+    border: dashed #D99F59;
+    margin: 25px;
+}
+

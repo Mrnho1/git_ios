@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #A68F7B;
+
+}
+
+
+.borda01 {
+    border: 3px dashed burlywood;
+}
+
+h2 {
+    background-color: #736D68;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 3px dashed burlywood;
+}
+
+.borda02 {
+    border-bottom: 5px solid burlywood;
+}
+
+h1{
+    text-shadow: 3px 3px 5px whitesmoke;
+    padding: 1em;
+    background-color: #736D68;
+    text-align: center;
+}
+
