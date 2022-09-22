@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#container {
+    /* nao aplica no elemento filho somento no elemento PAI */
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border: solid 3px green;
+    flex-direction:column;
+    flex-flow: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items:flex-end;
+
+}
+
+
+#dv1 {
+    flex-basis: 25%;
+    order: 1;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#dv2 {
+    flex-basis: auto;
+    order: 4;
+    background-color: rgb(9, 94, 23);
+    width: 100px;
+    height: 100px;
+
+}
+
+#dv3 {
+    flex-basis: 25%;
+    order: 2;
+    background-color: rgb(209, 176, 127);
+    width: 100px;
+    height: 100px;
+}
+
+#dv4 {
+    flex-basis: 22%;
+    order: 3;
+    background-color: rgb(136, 94, 17);
+    width: 100px;
+    height: 100px;
+}
